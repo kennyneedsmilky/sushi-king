@@ -14,7 +14,7 @@
   z-index: 1000;
   padding: 0.25rem;
   border-radius: 100px;
-  background-color: #f5f5f580;
+  background-color: #f5f5f5e0;
   box-shadow: 2px 2px 2px #00000080;
   margin: 0.25rem;
   height: calc(3rem - 0.5rem);

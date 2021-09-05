@@ -1,9 +1,9 @@
 <template>
     <div>
-        <hero-image :pic="this.pic" :pageTitle="this.pageTitle" :pageSubtitle="this.pageSubtitle" ></hero-image>
+        <hero-image :pic="this.pic" :pageTitle="this.pageTitle" :pageSubtitle="this.pageSubtitle" :infoBtn="this.info"></hero-image>
         <div class="page__section">   
             <h1 class="display-3">Home</h1>
-            <p class="p">This is the home page.</p>
+            <p class="p display-5">This is the home page.</p>
         </div>      
     </div>
 </template>
@@ -19,7 +19,8 @@ export default {
         return {
             pic: "sushi_01.jpg",
             pageTitle: "Welcome",
-            pageSubtitle: "Your sushi adventure starts here!"
+            pageSubtitle: "Your sushi adventure starts here!",
+            info: "Learn More"
         }
     }
 }
