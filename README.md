@@ -1,5 +1,7 @@
 # sushi-king
 
+## https://kennyneedsmilky.github.io/sushi-king-dist/
+
 ## Project setup
 ```
 npm install
