@@ -1,30 +1,46 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view />
+  <page-header></page-header>
+  <router-view class="router__view" />
+  <page-footer></page-footer>
 </template>
 
+<script>
+import PageHeader from "./components/PageHeader.vue";
+import PageFooter from "./components/PageFooter.vue";
+export default {
+  components: {
+    PageHeader, PageFooter
+  },
+  data() {
+    return {
+      
+    }
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+a {
+  color: black;
 }
 
-#nav {
-  padding: 30px;
+a:hover {
+  color: #f835ad;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+body {
+  background-color: #ffe0ce;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.p, .display-1, .display-2, .display-3, .display-4, .display-5, .page__section {
+  padding: 0.25rem;
+  margin: 0.25rem;
+}
+
+.router__view {
+  padding: 3.25rem 0;
 }
 </style>
