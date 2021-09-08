@@ -1,0 +1,72 @@
+ [
+  {
+    "id": 1,
+    "name_en": "Ikura Gunkan",
+    "name_jp": "イクラ軍艦",
+    "info": "Salmon roe.",
+    "pic": "ikura-gunkan.svg"
+  },
+  {
+    "id": 2,
+    "name_en": "Sake Nigiri",
+    "name_jp": "鮭握り",
+    "info": "Salmon.",
+    "pic": "sake-nigiri.svg"
+  },
+  {
+    "id": 3,
+    "name_en": "Kappa Maki",
+    "name_jp": "河童巻き",
+    "info": "Cucumber roe. Named after the Japanese monster, Kappa, who eats cucumbers.",
+    "pic": "kappa-maki.svg"
+  },
+  {
+    "id": 4,
+    "name_en": "Maguro Nigiri",
+    "name_jp": "マグロ握り",
+    "info": "A lean cut of tuna. This is the inexpensive variety of tuna. Fatty cuts are more expensive.",
+    "pic": "maguro-nigiri.svg"
+  },
+  {
+    "id": 5,
+    "name_en": "Uni",
+    "name_jp": "ウニ",
+    "info": "Sea urchin.",
+    "pic": "uni.svg"
+  },
+  {
+    "id": 6,
+    "name_en": "Toro",
+    "name_jp": "トロ",
+    "info": "Fatty Bluefin Tuna belly.",
+    "pic": "toro.svg"
+  },
+  {
+    "id": 7,
+    "name_en": "Hamachi",
+    "name_jp": "魬",
+    "info": "Young yellowtail.",
+    "pic": "hamachi.svg"
+  },
+  {
+    "id": 8,
+    "name_en": "Ebi Nigiri",
+    "name_jp": "海老握り",
+    "info": "Cooked shrimp.",
+    "pic": "ebi-nigiri.svg"
+  },
+  {
+    "id": 9,
+    "name_en": "Amaebi",
+    "name_jp": "甘エビ",
+    "info": "Sweet shrimp.",
+    "pic": "amaebi.svg"
+  },
+  {
+    "id": 10,
+    "name_en": "Tamagoyaki",
+    "name_jp": "玉子焼き",
+    "info": "Fried egg.",
+    "pic": "tamagoyaki.svg"
+  }
+]

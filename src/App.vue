@@ -15,7 +15,13 @@ export default {
     return {
       
     }
-  }
+  },
+  methods: {
+    
+  },
+  mounted() {
+
+  },
 }
 </script>
 
@@ -32,7 +38,7 @@ a:hover {
 }
 
 body {
-  background-color: #ffe0ce;
+  background-color: #ffffff;
 }
 
 .p, .display-1, .display-2, .display-3, .display-4, .display-5, .page__section {
